@@ -243,7 +243,7 @@ body {
     font-weight: 600;
   }
   
-  .f700 {
+  .fw700 {
     font-weight: 700;
   }
   
@@ -1074,6 +1074,6 @@ body {
 
 /*  */
 .ant-tabs-right {
-  width: calc(100% - 268px);
+  width: calc(100% - 248px);
 }
 
