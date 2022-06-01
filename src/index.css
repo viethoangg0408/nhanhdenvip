@@ -244,3 +244,60 @@ code {
   outline: none;
   padding: 0 5px;
 }
+
+.modal-delete-product-combo .ant-btn,
+.modal_order-button .ant-btn,
+.title-bar--main-right .ant-btn,
+.form-add-variation .btn_Save,
+.footer-modal-lession .btn_Save,
+.footer-modal-lession .btn_Huy {
+    width: 170px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.modal-delete-product-combo .ant-btn-dangerous {
+    background-color: #D92D20;
+}
+
+.modal_order-button .btn_Save,
+.title-bar--main-right .btn_Save,
+.form-add-variation .btn_Save,
+.footer-modal-lession .btn_Save {
+    background-color: #1db954;
+}
+
+/* .ant-modal-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+} */
+
+.ant-modal-confirm .ant-modal-body {
+  padding: 32px 32px 24px;
+}
+
+.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm.modal-delete-product-combo.ant-zoom-appear.ant-zoom-appear-active.ant-zoom {
+  margin: 0 auto;
+  z-index: 10000000000;
+  position: fixed;
+  top: 100px;
+  left: 40%;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.ant-modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    pointer-events: auto;
+}

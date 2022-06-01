@@ -20,6 +20,9 @@ root.render(
         <Router path="/admin">
           <Home/>
         </Router>
+      <Router path="/">
+        <HomeIndex />
+      </Router>
       </Switch>
     </BrowserRouter>
 );
